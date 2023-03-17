@@ -29,6 +29,65 @@ Algoritmo AtravessarRua
 		Atravesse
 	Fim-Se
 Fim-Algoritmo 
+
+- Escrevemos em forma de texto a rotina pra atravessar a rua... 
+
+Algoritmo AtravessarRua
+	Olhar pra esquerda
+	Olhar pra direita
+	Se NÃO estiver vindo carro...
+		Atravesse!
+	Senão...
+		NÃO Atravesse
+	Fim-Se
+Fim-Algoritmo 
+
+- Acima, essa rotina também é algoritmo, apesar de escrita de outra maneira, com expressões negativas !=
+
+- Porém, alterar a ordem pode não funcionar e NÃO vai formar um algoritmo...
+
+Algoritmo AtravessarRua
+	Atravesse
+	Se estiver vindo carro
+		Olhar pra direita
+	senão
+		Olhar pra esquerda
+	Fim-Se
+	Não Atravesse
+Fim-Algoritmo
+
+- Essa rotina, infelizmente, não nos faz resolver o problema de atravessar a rua em segurança, então não pode ser considerada um algoritmo.
+- Também são ALGORITMOS:
+	- Fazer uma ligação...
+	- Preparar um bolo...
+	- Sacar dinheiro no ATM...
+	- Cancelar uma TV por assinatura...
+- Programas de Computadores é desenvolvido pra suprir uma necessidade, ou seja, resolver um problema...
+- Equações de 2º Grau - na época da escola, a gente sempre pensou em fazer um cálculo pra não precisar calcular "Bhaskara". 
+- Podemos informar as variáveis da Equação de 2º Grau para os valores de A, B, C....
+
+- A = 2, B = 5, C = 2
+- 2x² + 5x + 2 = 0
+- Delta = 9
+- Delta positivo, duas raízes diferentes:
+- x' = -0,50
+- x" = -2,00
+
+= A = 1, B = 2, C = 3
+- 1x² + 2x + 3 = 0
+- Delta = -8
+- Delta negativo, só existem raízes imaginárias
+
+= A = 1, B = 2, C = 1
+- 1x² + 2x + 1 = 0
+- Delta = 0
+- Para delta zero, temos duas raízes iguais a -1. 
+
+- Vamos aprender a usar algoritmos pra criar rotinas e resolver pequenos problemas...
+- Vamos incrementando a dificuldade das rotinas de acordo com o tempo...
+
+FIM! 
+
 */
 
 /* 
