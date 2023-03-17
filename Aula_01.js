@@ -1,6 +1,36 @@
 // Introdução a Algoritmos - Curso de Algoritmos #01 - Gustavo Guanabara
 // https://youtu.be/8mei6uVttho
 
+// Curso de Algoritmo desenvolvido por Gustavo Guanabara, com diversas aulas para ajudar você a se especializar, incluindo testes com certificados para agregar em sua carreira. Todas as aulas com vídeos excelentes, super práticos e dinâmicos.
+
+/*
+Curso de Algoritmo
+- O que é Algorítmo? Tendência de concituar como algo complexo, complicado, matemático... 
+- Algoritmo é Vida, encontramos em sites, buscas, compras on-line, jogos, vídeos, celulares, smartTV, carros, etc. 
+- "Algoritmos são conjuntos de passos finitos e organizados que, quando executados, resolvem um determinado problema." (MANZANO) 
+- Podemos usar algoritmos até pra calcular a "beleza" de algo, por exemplo, na Proporção Áurea.
+-- Phi = 1,6180339885
+-- Podemos calcular a razão entre altura/umbigo-chão ou braço/cotovelo-dedo, tamanho do rosto/distância-olhos...
+-- Natureza como os girassóis, concha do caramujo Nautilus, estrelas do mar, galhos de árvores... 
+-- Arquitetura: Parthenon, Taj Mahal, Nascimento de Vênus de Botticelli, Beethoven na 5ª Sinfonia, etc.
+-- Indústria: Apple, Pepsi, NatGeo, BP, Toyota...
+
+- Algoritmo = Reprodução de um Padrão
+- Reprodução de Padrões é conhecido como Rotina
+
+- Rotina para Atravessar a Rua (cima-baixo-esquerda-direita)
+
+Algoritmo AtravessarRua
+	Olhar pra direita
+	Olhar pra esquerda
+	Se estiver vindo carro...
+		Não atravesse!
+	Senão...
+		Atravesse
+	Fim-Se
+Fim-Algoritmo 
+*/
+
 /* 
 TRANSCRIÇÃO
 0:04
