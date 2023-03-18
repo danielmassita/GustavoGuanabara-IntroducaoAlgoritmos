@@ -96,7 +96,15 @@ inicio
 	Escreva("Me livrei da maldicao.")
 fimalgoritmo
 
+Escreva("msg")
+Escreva(msg)
+Escreva("mensagem", msg)
 
+1. Vai escrever na tela a string "msg".
+2. Vai escrever o conteúdo da variável msg, que deve ser declarada e inicializada.
+3. Vai escrever "mensagem", msg (conteúdo da variável)
+
+FIM!
 */
 
 /*
