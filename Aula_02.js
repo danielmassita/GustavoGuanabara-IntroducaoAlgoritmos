@@ -2,8 +2,101 @@
 // https://youtu.be/M2Af7gkbbro
 
 /*
-Algoritmos Computacionais
-- 
+ALGORITMOS COMPUTACIONAIS
+
+- Algoritmo é todo tipo de rotina do dia-a-dia que se faz pra solucionar um problema.
+- Computacional, o conceito é o mesmo mas o foco de execução é pouco diferente...
+
+- "São passos a serem seguidos por um 'módulo processador' e seus respectivos 'usuários' que, quando executados na ordem correta, conseguem 'realizar' determinada 'tarefa'." - (GUANABARA)
+	. Módulo processador (smartphone, tablet, pc, notebook - tudo que pode ser programável)
+	. Usuário é a pessoa que está usando o programa.
+	. Realizar tarefa é a execução do programa que resolverá determinado problema.
+
+- Podemos pensar em antigos sistemas de gestão (CRM, SAP) home-banking, facebook, youtube (novas compressões, exibições, segurança de saldos), jogos e etc. 
+
+-> Algoritmo Computacional é composto por:
+
+---> Lógica de Programação (desenvolvimento) {fluxograma, diagrama de Nassi Shneiderman ou Chapin, pseudo-código}
+---> Linguagem de Programação (escrever código) {PHP, Java, JS}
+---> Sistema Completo (app, software) 
+
+////////// VISUALG.exe (pra treinar o Portugol)
+
+! Ctrl+Espaço
+- tela do código
+- memória, variáveis e escopo
+- tela de terminal e saída de dados
+- menu e ferramentas
+
+
+algoritmo "primeiro"
+var
+	identificador: tipo
+inicio
+	Escreval("Ola Mundo!")
+	Escreva("Me livrei da maldicao.")
+fimalgoritmo
+
+- F9 (Executar)
+- Esc (Fechar prompt da execução)
+
+- Resultado: Ola Mundo!Me livrei da maldicao.
+- Precisamos usar a função Escreval("string") pra Escrever + L[inha de baixo]
+
+////////// VARIÁVEIS
+
+- Variáveis são espaços vazios (memória) que podem ser preenchidos por valores...
+- Uma variável simples guarda APENAS um valor, precisando apagar um pra adicionar outro...
+
+- Espaço vazio + Etiqueta
+
+BOLA: Brinquedo
+BONECA: Brinquedo
+SAPATO: Calçado
+CHINELO: Calçado
+
+////////// IDENTIFICADORES
+
+Regras:
+1. Deve começar com uma letra
+2. Os próximos podem ser letras ou números
+3. NÃO pode utilizar nenhum símbolo, exceto _
+4. NÃO pode conter espaços em branco
+5. NÃO pode conter letras com acentos
+6. NÃO pode ser uma palavra reservada
+
+Nota1 (ok)
+Média (!)
+Salário Bruto (!)
+9dade (!)
+Algoritmo (!)
+Inicio_Algoritmo (ok)
+
+////////// TIPOS PRIMITIVOS
+
+Inteiro		1	3	-5	198	0
+Real		0.5	5.0	9.8	-77.3	3.14159
+Caractere	"Gustavo"	"Algoritmo"	"123"
+Logico		Verdadeiro	Falso
+
+////////// VARIÁVEIS
+
+var
+	identificador: tipo
+var
+	msg: Caractere
+
+algoritmo "primeiro"
+var
+	msg: Caractere
+inicio
+	msg <- "Olá, Mundo!"
+	Escreval("msg") // Erro pois no caso da variável não usa ""
+	Escreval(msg) 
+	Escreva("Me livrei da maldicao.")
+fimalgoritmo
+
+
 */
 
 /*
