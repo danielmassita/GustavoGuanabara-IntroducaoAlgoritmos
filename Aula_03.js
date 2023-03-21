@@ -2,6 +2,13 @@
 // https://youtu.be/RDrfZ-7WE8c
 
 /*
+- Baixar o pacote de arquivos...
+- Na aula anterior, vimos os comandos de saída...
+- Na aula de hoje, vamos ver os comandos de entrada...
+
+*/
+
+/*
 TRANSCRIÇÃO
 0:04
 ♫Musica de abertura♫
