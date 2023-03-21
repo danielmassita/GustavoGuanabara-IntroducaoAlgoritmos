@@ -3,6 +3,12 @@
 
 /*
 - Baixar o pacote de arquivos...
+
+VisuAlg - https://sourceforge.net/projects/visualg30/
+Scratch - https://scratch.mit.edu/
+"exercicios-algoritmos.pdf"
+"visualg.pdf"
+
 - Na aula anterior, vimos os comandos de saída...
 - Na aula de hoje, vamos ver os comandos de entrada...
 
