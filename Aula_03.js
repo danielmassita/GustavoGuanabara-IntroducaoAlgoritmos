@@ -48,6 +48,117 @@ fimalgoritmo
 
 // Acima, declaramos 3 variáveis de números inteiros. Solicitamos ao usuário informar dois números e retornamos a soma deles. 
 
+OPERADORES ARITMÉTICOS
+
+                         (A <- 5)
+                         (B <- 2)
++       Adição            (A + B)   7
+-       Subtração         (A - B)   3
+*       Multiplicação     (A * B)   10
+/       Divisão           (A / B)   2.5
+\       Divisão Inteira   (A \ B)   2
+^       Exponenciação     (A ^ B)   25
+%       Módulo            (A % B)   1
+
+ORDEM DE PRECEDÊNCIA
+
+(  )    Parênteses
+^       Exponenciação
+* /     Multiplicação e Divisão
++ -     Soma e Subtração
+
+3 + 2 / 2       = 4
+(3+2) / 2       = 2.5
+
+
+algoritmo "valores"
+var
+   N1, N2, M: Inteiro
+inicio
+      Escreva("Informe um número :")
+      Leia(N1)
+      Escreva("Informe outro número :")
+      Leia(N2)
+      M <- (N1 + N2)/2
+      Escreva("A média entre ", N1, " e ", N2, " é igual a ", M)
+fimalgoritmo
+
+// ERRO na linha 10. A variável M foi atribuída como inteiro, porém o tipo será conflitante com o resultado da média (real). Vamos alterar e corrigir. 
+
+
+algoritmo "valores"
+var
+   N1, N2: Inteiro
+   M: Real
+inicio
+      Escreva("Informe um número :")
+      Leia(N1)
+      Escreva("Informe outro número :")
+      Leia(N2)
+      M <- (N1 + N2)/2
+      Escreva("A média entre ", N1, " e ", N2, " é igual a ", M)
+fimalgoritmo
+
+// Se retirarmos os parênteses de N1 e N2 no cálculo da média, o valor será totalmente alterado. O código não tem erro, mas a lógica sim. 
+
+
+algoritmo "valores"
+var
+   N1, N2: Inteiro
+   M: Real
+inicio
+      Escreva("Informe um número :")
+      Leia(N1)
+      Escreva("Informe outro número :")
+      Leia(N2)
+      M <- N1 + N2/2
+      Escreva("A média entre ", N1, " e ", N2, " é igual a ", M)
+fimalgoritmo
+
+
+FUNÇÕES ARITMÉTICAS
+
+Abs         Valor Absoluto          Abs(-10)      10
+Exp         Exponenciação           Exp(3,2)      9
+Int         Valor Inteiro           Int(3.9)      3
+RaizQ       Raiz Quadrada           RaizQ(25)     5
+Pi          Retorna Pi              Pi            3.14159...
+Sen         Seno (radianos)         Sen(0.523)    0.5
+Cos         Cosseno (radianos)      Cos(0.523)    0.86
+Tan         Tangente (radianos)     Tan(0.523)    0.57
+GraupRad    Graus para Radianos     GraupRad(30)  0.52
+
+
+algoritmo "funcoesAritmeticas"
+var
+   A: Inteiro
+   B: Real
+   C, C1, C2: Real
+   D, D1: Real
+inicio
+   A <- Abs(-50)
+   Escreval(A)
+   
+   B <- Exp(9, 5)
+   Escreval(B)
+   
+   C <- RaizQ(81)
+   Escreval(C)
+   
+   C1 <- RaizQ(90)
+   Escreval(C1)
+   
+   C2 <- Int(RaizQ(90))
+   Escreval(C2)
+
+   D <- GraupRad(90)
+   Escreval(D)
+   
+   D1 <- Sen(GraupRad(90))
+   Escreval(D1)
+
+fimalgoritmo
+
 
 */
 
