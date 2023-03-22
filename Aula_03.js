@@ -159,6 +159,19 @@ inicio
 
 fimalgoritmo
 
+// Aqui acima, temos alguns exemplos de como as funções embutidas no VisualG podem ajudar em cálculos...
+
+algoritmo "conversor"
+var
+   angulo, S: Real
+inicio
+      Escreva("Informe um ângulo: ")
+      Leia(angulo)
+      S <- Sen(GraupRad(angulo))
+      Escreva("O Seno de ", angulo, " é igual a ", S)
+fimalgoritmo
+
+// O código acima retorna o Seno da variável ângulo, já convertida de graus para radianos com uma função dentro de outra. 
 
 */
 
