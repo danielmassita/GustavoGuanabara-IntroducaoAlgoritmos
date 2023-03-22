@@ -23,8 +23,30 @@ FimAlgoritmo
 
 // Esse código só funciona para o nome "Gustavo", sendo limitado ao único valor atribuído na variável - e não retornando o nome do usuário que está usando o programa...
 
+Algoritmo: "MeuNome"
+var
+  Nome: Caractere
+Inicio
+    Escreva("Digite seu nome :")
+    Leia(Nome)
+    Escreva("Muito prazer ", Nome)
+FimAlgoritmo
 
+// Dessa forma, agora vamos ter uma interatividade com o usuário.
 
+algoritmo "semnome"
+var
+   N1, N2, S: Inteiro
+inicio
+      Escreva("Informe um número :")
+      Leia(N1)
+      Escreva("Informe outro número :")
+      Leia(N2)
+      S <- N1 + N2
+      Escreva("A soma entre ", N1, " e ", N2, " é igual a ", S)
+fimalgoritmo
+
+// Acima, declaramos 3 variáveis de números inteiros. Solicitamos ao usuário informar dois números e retornamos a soma deles. 
 
 
 */
