@@ -9,8 +9,23 @@ Scratch - https://scratch.mit.edu/
 "exercicios-algoritmos.pdf"
 "visualg.pdf"
 
-- Na aula anterior, vimos os comandos de saída...
-- Na aula de hoje, vamos ver os comandos de entrada...
+- Na aula anterior, vimos os comandos de saída (output), mostrar algo na tela...
+- Na aula de hoje, vamos ver os comandos de entrada (input), entrar com dados no computador, solicitar ao usuário...
+- Utilizando Atribuições:
+
+Algoritmo: "MeuNome"
+var
+  Nome: Caractere
+Inicio
+  Nome <- "Gustavo"
+  Escreva("Muito prazer ", Nome) 
+FimAlgoritmo
+
+// Esse código só funciona para o nome "Gustavo", sendo limitado ao único valor atribuído na variável - e não retornando o nome do usuário que está usando o programa...
+
+
+
+
 
 */
 
