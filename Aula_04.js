@@ -1,6 +1,20 @@
 // Operadores Lógicos e Relacionais - Curso de Algoritmos #04 - Gustavo Guanabara
 // https://youtu.be/Ig4QZNpVZYs
 
+
+/*
+Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.   Download de pacotes e curso com certificado GRÁTIS: http://cursoemvideo.com/course/curso-...
+
+Curso em Vídeo
+Site: http://www.cursoemvideo.com
+YouTube:   
+
+ / cursosemvideo  
+Facebook: http://www.facebook.com/cursosemvideo
+Twitter: http://twitter.com/cursosemvideo
+Google+: http://plus.google.com/11266655883741...
+*/
+
 /* 
 TRANSCRIÇÃO
 0:04
