@@ -173,6 +173,7 @@ fimalgoritmo
 
 // O código acima retorna o Seno da variável ângulo, já convertida de graus para radianos com uma função dentro de outra. 
 
+
 */
 
 /*
