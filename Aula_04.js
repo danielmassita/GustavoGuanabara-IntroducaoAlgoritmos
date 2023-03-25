@@ -18,7 +18,9 @@ Google+: http://plus.google.com/11266655883741...
 /*
 https://www.hostinger.com.br/tutoriais/o-que-e-npm
 https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca#:~:text=Framework%20ou%20Biblioteca%3F,ferramentas%20diferentes%20para%20prop%C3%B3sitos%20diferentes.
-
+https://pt.khanacademy.org/computing
+https://www.cursoemvideo.com/curso/curso-de-algoritmo/aulas/algoritmo/modulos/operadores-logicos-e-relacionais/
+https://www.coursera.org/articles/entry-level-software-engineer-jobs
 */
 
 /* 
