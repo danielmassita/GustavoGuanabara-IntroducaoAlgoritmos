@@ -21,6 +21,10 @@ https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca#
 https://pt.khanacademy.org/computing
 https://www.cursoemvideo.com/curso/curso-de-algoritmo/aulas/algoritmo/modulos/operadores-logicos-e-relacionais/
 https://www.coursera.org/articles/entry-level-software-engineer-jobs
+https://www.cursoemvideo.com/curso/curso-de-algoritmo/aulas/algoritmo/modulos/operadores-logicos-e-relacionais/#google_vignette
+https://pt.khanacademy.org/computing
+
+https://www.youtube.com/playlist?list=PLbA-jMwv0cuWbas947cygrzfzHIc7esmp
 */
 
 /* 
