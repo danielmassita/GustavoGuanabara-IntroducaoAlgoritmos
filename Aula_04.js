@@ -2,17 +2,19 @@
 // https://youtu.be/Ig4QZNpVZYs
 
 
-/*
-Aula do Curso de HTML5 criado pelo professor Gustavo Guanabara para o portal CursoemVideo.com.   Download de pacotes e curso com certificado GRÁTIS: http://cursoemvideo.com/course/curso-...
+/* Continuidade nos estudos, vamos ver: Operadores RELACIONAIS e Operadores Lógicos!
 
-Curso em Vídeo
-Site: http://www.cursoemvideo.com
-YouTube:   
+OPERADORES RELACIONAIS (criam a relação entre variáveis e expressões, comparando-os e gerando resultados booleanos/lógicos).
 
- / cursosemvideo  
-Facebook: http://www.facebook.com/cursosemvideo
-Twitter: http://twitter.com/cursosemvideo
-Google+: http://plus.google.com/11266655883741...
+>   Maior Que...
+<   Menor Que...
+>=  Maior ou Igual a...
+<=  Menor ou Igual a...
+=   Igual a...
+<>  Diferente de...
+
+
+
 */
 
 /*
