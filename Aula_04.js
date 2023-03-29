@@ -13,7 +13,19 @@ OPERADORES RELACIONAIS (criam a relação entre variáveis e expressões, compar
 =   Igual a...
 <>  Diferente de...
 
+Prática: 
+(vamos comparar valores numéricos usando o VisuAlg)
 
+algoritmo "semnome"
+var
+  A, B, C: Inteiro
+inicio
+  A <- 2
+  B <- 3
+  C <- 5
+  Escreva (A > B) // Falso
+  
+fimalgoritmo
 
 */
 
