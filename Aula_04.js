@@ -74,10 +74,19 @@ inicio
 fimalgoritmo
 
 
-// OPERADORES LÓGICOS
+// OPERADORES LÓGICOS (https://www.treinaweb.com.br/blog/operadores-logicos)
 
 Operadores Lógicos
+Valores Booleanos (Verdadeiro e Falso)
+Em programação existe um tipo de dado chamado Booleano. Esse tipo guarda uma informação que indica se algo é verdadeiro ou falso. Pensando de maneira abstrata isso parece não fazer muito sentido, porém se pensarmos de maneira um pouco mais concreta facilita as coisas.
+Vamos supor que você receba a idade do usuário do seu programa e deseja saber se ela é maior que 18 anos. O resultado da análise da idade só pode retornar dois valores: verdadeiro, se ele tiver mais de 18 anos, ou falso, se ele tiver menos de 18.
+No caso acima podemos ter uma visão prática do uso do dado booleano, apesar de não envolver diretamente operadores lógicos.
 
+Operador E (AND)
+O primeiro operador lógico que veremos será o operador E. Este operador retorna verdadeiro quando os dois valores de entrada passados para ele são verdadeiros, caso contrário ele retorna falso. Veja a tabela verdade dele abaixo:
+
+Operador OU (OR)
+Este operador retorna verdadeiro quando um ou outro valor de entrada é verdadeiro e também quando os dois valores são verdadeiros. Ele só retorna falso quando os dois valores de entrada são falsos. Veja a tabela verdade dele abaixo:
 
 */
 
