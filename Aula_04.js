@@ -24,8 +24,60 @@ inicio
   B <- 3
   C <- 5
   Escreva (A > B) // Falso
+  Escreva (A = B) // Falso
+  Escreva (A <> B) // Verdadeiro  
+fimalgoritmo
+
+// Os operadores relacionais vão testar a relação entre variáveis, valores ou expressões. Podemos fazer comparações usando valores:
+
+algoritmo "semnome"
+var
+  A, B, C: Inteiro
+inicio
+  A <- 2
+  B <- 3
+  C <- 5
+
+  Escreva (A > B) // Falso
+  Escreva (A = B) // Falso
+  Escreva (A <> B) // Verdadeiro  
+
+  Escreva (A >= 2) // Verdadeiro
+  Escreva (C=A+B) // Verdadeiro
+  Escreva (C >=B^A) // Falso
+  Escreva (C <= 2) // Verdadeiro
+fimalgoritmo
+
+// Posso comparar variáveis, valores e expressões (misturando tudo)...
+
+algoritmo "semnome"
+var
+  A, B, C: Inteiro
+inicio
+  A <- 2
+  B <- 3
+  C <- 5
+  
+  Escreva (A > B) // Falso
+  Escreva (A = B) // Falso
+  Escreva (A <> B) // Verdadeiro  
+
+  
+  Escreva (A >= 2) // Verdadeiro
+  Escreva (C=A+B) // Verdadeiro
+  Escreva (C >=B^A) // Falso
+  Escreva (C <= 2) // Verdadeiro
+
+  Escreva (B <= C % 2) // Falso
+  Escreva (1 = C % 2) // Verdadeiro
   
 fimalgoritmo
+
+
+// OPERADORES LÓGICOS
+
+Operadores Lógicos
+
 
 */
 
