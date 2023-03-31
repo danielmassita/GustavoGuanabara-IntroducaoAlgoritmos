@@ -45,7 +45,7 @@ inicio
   Escreva (A >= 2) // Verdadeiro
   Escreva (C=A+B) // Verdadeiro
   Escreva (C >=B^A) // Falso
-  Escreva (C <= 2) // Verdadeiro
+  Escreva (C <= 2) // Falso
 fimalgoritmo
 
 // Posso comparar variáveis, valores e expressões (misturando tudo)...
@@ -66,7 +66,7 @@ inicio
   Escreva (A >= 2) // Verdadeiro
   Escreva (C=A+B) // Verdadeiro
   Escreva (C >=B^A) // Falso
-  Escreva (C <= 2) // Verdadeiro
+  Escreva (C <= 2) // Falso
 
   Escreva (B <= C % 2) // Falso
   Escreva (1 = C % 2) // Verdadeiro
@@ -108,6 +108,37 @@ Operador NÃO
 p       NÃO p
 V       F
 F       V
+
+// Pensar P e Q como duas alunas: "Paula" e "Quézia". Podemos pensar que eu fico feliz se as duas estiverem felizes (operador E). Ou posso pensar que se uma ou outra estiver feliz, eu fico feliz (operador OU). 
+// Da mesma maneira, se alguém está FELIZ (true), é falso que esteja TRISTE (false). Porém, se alguém NÃO ESTÁ FELIZ (false), é óbvio que está TRISTE (true).
+
+algoritmo "semnome"
+var
+  A, B, C: Inteiro
+inicio
+  A <- 2
+  B <- 3
+  C <- 5
+
+  Escreval (A > B) // Falso
+  Escreval (A = B) // Falso
+  Escreval (A <> B) // Verdadeiro
+
+  Escreval (A >= 2) // Verdadeiro
+  Escreval (C=A+B) // Verdadeiro
+  Escreval (C >=B^A) // Falso
+  Escreval (C <= 2) // Verdadeiro
+
+  Escreval (B <= C % 2) // Falso
+  Escreval (1 = C % 2) // Verdadeiro
+
+  Escreval (verdadeiro e falso)
+  Escreval ((A = B) ou (C > A)) // Falso OU Verdadeiro = Verdadeiro
+  Escreval (nao ((A = B) ou (C > A))) // Inverte o resultado lógico = Falso
+  
+fimalgoritmo
+
+
 
 */
 
