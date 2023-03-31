@@ -153,6 +153,34 @@ Aritméticos
  E    
  OU
  NÃO
+*/
+
+/* 
+Exercício com Trinângulos (VisuAlg)
+
+algoritmo "triangulos"
+var
+   L1, L2, L3: Real
+   EQ, ES, TRI: Logico
+inicio
+      Escreva("Digite o primeiro lado: ")
+      Leia(L1)
+      Escreva("Digite o segundo lado: ")
+      Leia(L2)
+      Escreva("Digite o terceiro lado: ")
+      Leia(L3)
+      
+      TRI <- (L1 < L2 + L3) e (L2 < L1 + L3) e (L3 < L1 + L2)
+      EQ <- (L1 = L2) e (L2 = L3) // True
+      ES <- (L1 <> L2) e (L2 <> L3) e (L1 <> L3) // True
+      
+      Escreval("Podemos formar um triângulo? ", TRI)
+      Escreval("O triângulo é equilátero? ", EQ)
+      Escreval("O triângulo é escaleno? ", ES)
+      // Cada lado tem que ser sempre menor que a soma dos outros dois lados pra ser um triângulo.
+fimalgoritmo
+
+
 
 */
 
