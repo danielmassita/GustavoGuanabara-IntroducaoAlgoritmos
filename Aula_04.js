@@ -138,7 +138,21 @@ inicio
   
 fimalgoritmo
 
+// ORDEM DE PRECEDÊNCIA (quando entre operações aritméticas, lógicas e relacionais)
 
+Aritméticos
+(  )  parênteses
+  ^   exponenciação
+ / *  divisão e multiplicação
+ +  - adições e subtrações
+ 
+ Relacionais (todos, da esquerda pra direita)
+ > < >= <= == <> (maior, menor, maior ou igual, menor ou igual, igual a, diferente de)
+ 
+ Lógicos (nessa ordem)
+ E    
+ OU
+ NÃO
 
 */
 
