@@ -85,8 +85,29 @@ No caso acima podemos ter uma visão prática do uso do dado booleano, apesar de
 Operador E (AND)
 O primeiro operador lógico que veremos será o operador E. Este operador retorna verdadeiro quando os dois valores de entrada passados para ele são verdadeiros, caso contrário ele retorna falso. Veja a tabela verdade dele abaixo:
 
+Premissa P e Q:
+
+p       q       p E q
+V       V       V
+V       F       F
+F       V       F
+F       F       F
+
 Operador OU (OR)
 Este operador retorna verdadeiro quando um ou outro valor de entrada é verdadeiro e também quando os dois valores são verdadeiros. Ele só retorna falso quando os dois valores de entrada são falsos. Veja a tabela verdade dele abaixo:
+
+Premissa P ou Q:
+
+p       q       p OU q
+V       V       V
+V       F       V
+F       V       V
+F       F       F
+
+Operador NÃO
+p       NÃO p
+V       F
+F       V
 
 */
 
