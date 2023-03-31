@@ -1,6 +1,13 @@
 // Introdução ao Scratch - Curso de Algoritmos #05 - Gustavo Guanabara
 // https://youtu.be/GrPkuk1ezyo
 
+/*
+Scratch (download ou web)
+https://scratch.mit.edu/
+
+
+*/
+
 /* TRANSCRIÇÃO
 0:04
 ♬ Introdução ♬
