@@ -5,6 +5,39 @@
 Scratch (download ou web)
 https://scratch.mit.edu/
 
+- Ferramentas
+- Sprites (imagens das personagens)
+- Palco ou Plano de Fundo (background)
+- Objeto(s)
+
+O Scratch permite que a gente junte as peças (encaixes): 
+
+- Events > When Green Flag Click
+- Sound > Start Sound Meow
+- Looks > Say "Olá, Mundo!" for 2 secs.
+
+- Sensing > Ask "Diga um número" and wait...
+- Answer
+- Sensing > Ask "Diga outro número" and wait...
+- Answer
+
+// Agora, vamos pegar a resposta do usuário (answer) e guardar em algum lugar (variável)...
+
+- Variables > Make a Variable > N1
+- Variables > Make a Variable > N2
+
+- Variables > Set N1 to Answer
+- Variables > Set N2 to Answer
+
+- Variables > Make a Variable > S
+- Variables > Set S to ( Operations _N1_ + _N2_ )
+- Looks > Say S for 2 secs.
+- Operations > Join __ __ > Join "A Soma entre os números vale: ", S
+
+// Vamos então dar a mesma quantidade de passos com a personagem do Scratch, de acordo com o número total do input do usuário...
+
+- Control > Repeat __S__ 
+
 
 */
 
