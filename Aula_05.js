@@ -37,8 +37,11 @@ O Scratch permite que a gente junte as peças (encaixes):
 // Vamos então dar a mesma quantidade de passos com a personagem do Scratch, de acordo com o número total do input do usuário...
 
 - Control > Repeat __S__ 
-
-
+  - Motion > Move __S__ steps > 
+  - Motion > Next Costume // muda o sprite da personagem...
+  - Control > Wait _0.2_ secs. 
+  
+FIM SCRIPT # 01
 */
 
 /* TRANSCRIÇÃO
