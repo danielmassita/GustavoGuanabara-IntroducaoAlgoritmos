@@ -43,8 +43,6 @@ O Scratch permite que a gente junte as peças (encaixes):
 
 // Resultado final do código "Algoritmos-Aula05-1" no Scratch
 
-https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true
-
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true">
  <source media="(prefers-color-scheme: light)" srcset="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true">
