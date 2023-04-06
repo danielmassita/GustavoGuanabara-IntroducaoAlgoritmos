@@ -1,7 +1,7 @@
 # Introdução ao Scratch - Curso de Algoritmos #05 - Gustavo Guanabara
-# https://youtu.be/GrPkuk1ezyo
+## https://youtu.be/GrPkuk1ezyo
 
-## Scratch (download ou web)
+### Scratch (download ou web)
 https://scratch.mit.edu/
 
 - Ferramentas
@@ -40,6 +40,17 @@ O Scratch permite que a gente junte as peças (encaixes):
   - Motion > Next Costume // muda o sprite da personagem...
   - Control > Wait _0.2_ secs. 
 ```  
+
+// Resultado final do código "Algoritmos-Aula05-1" no Scratch
+
+https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true
+
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true">
+ <img alt="Imagem com o resutado final da Aula 05 Exercício 01 no Scratch" src="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-1.png?raw=true">
+</picture>
+
 FIM SCRIPT # 01
 */
 
