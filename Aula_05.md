@@ -67,6 +67,7 @@ FIM SCRIPT # 01
 ```
 
 // O bloco acima inicializa o programa, faz o sprite caminhar (trocando o costume), estipula a rotação left-right, ao tocar na tela retorna (direção * -1). 
+
 // Um novo bloco pode ser inicializado a partir de um evento no teclado (space key pressed)
 
 ```
@@ -82,7 +83,7 @@ Control > Repeat 10x > Move Y by -10
 - Fazer um tijolo (make a brick) 
 - Re Size
 - Atualizar o bloco de códigos:
-`
+
 - Events > When Space-key Pressed > 
 - Control > Repeat 10x > Move Y by 10
 - Control > If (touching tijolo) 
@@ -90,12 +91,20 @@ Control > Repeat 10x > Move Y by -10
   - Variables > Create "Pontos" for all sprites
   - Variables > Change Pontos by 1
 - Control > Repeat 10x > Move Y by -10
-`
+
 - Atualizar a linha - Event > When Flag Clicked > Control > Forever
 - Set Pontos to 0 (when flag is clicket)
 ```
 
+// Resultado final do código "Algoritmos-Aula05-2" no Scratch
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-2.png?raw=true">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-2.png?raw=true">
+ <img alt="Imagem com o resutado final da Aula 05 Exercício 01 no Scratch" src="https://github.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/blob/main/Algoritmos-Aula05-2.png?raw=true">
+</picture>
+
+FIM SCRIPT # 02
 */
 
 /* TRANSCRIÇÃO
