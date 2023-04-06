@@ -1,8 +1,7 @@
-// Introdução ao Scratch - Curso de Algoritmos #05 - Gustavo Guanabara
-// https://youtu.be/GrPkuk1ezyo
+# Introdução ao Scratch - Curso de Algoritmos #05 - Gustavo Guanabara
+# https://youtu.be/GrPkuk1ezyo
 
-/*
-Scratch (download ou web)
+## Scratch (download ou web)
 https://scratch.mit.edu/
 
 - Ferramentas
@@ -11,7 +10,7 @@ https://scratch.mit.edu/
 - Objeto(s)
 
 O Scratch permite que a gente junte as peças (encaixes): 
-
+```
 - Events > When Green Flag Click
 - Sound > Start Sound Meow
 - Looks > Say "Olá, Mundo!" for 2 secs.
@@ -20,9 +19,9 @@ O Scratch permite que a gente junte as peças (encaixes):
 - Answer
 - Sensing > Ask "Diga outro número" and wait...
 - Answer
-
+``` 
 // Agora, vamos pegar a resposta do usuário (answer) e guardar em algum lugar (variável)...
-
+```
 - Variables > Make a Variable > N1
 - Variables > Make a Variable > N2
 
@@ -33,14 +32,14 @@ O Scratch permite que a gente junte as peças (encaixes):
 - Variables > Set S to ( Operations _N1_ + _N2_ )
 - Looks > Say S for 2 secs.
 - Operations > Join __ __ > Join "A Soma entre os números vale: ", S
-
+```
 // Vamos então dar a mesma quantidade de passos com a personagem do Scratch, de acordo com o número total do input do usuário...
-
+```
 - Control > Repeat __S__ 
   - Motion > Move __S__ steps > 
   - Motion > Next Costume // muda o sprite da personagem...
   - Control > Wait _0.2_ secs. 
-  
+```  
 FIM SCRIPT # 01
 */
 
