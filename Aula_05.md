@@ -52,6 +52,52 @@ O Scratch permite que a gente junte as peças (encaixes):
 FIM SCRIPT # 01
 */
 
+/* INÍCIO SCRIPT # 02
+
+```
+- Apagar Sprite1
+- Choose Background
+- New Object > People > Avery
+- Event > When Flag Clicked > Control > Forever
+  - Motion > Move 10 Steps
+  - Looks > Next Costume
+  - Control > Wait 0.01 secs // Apagar depois... 
+  - Motion > Set Rotation Style Left-Right
+  - Motion > If on edge, bounce // Voltando de cabeça pra baixo
+```
+
+// O bloco acima inicializa o programa, faz o sprite caminhar (trocando o costume), estipula a rotação left-right, ao tocar na tela retorna (direção * -1). 
+// Um novo bloco pode ser inicializado a partir de um evento no teclado (space key pressed)
+
+```
+Events > When Space-key Pressed > 
+Control > Repeat 10x > Move Y by 10
+Control > Repeat 10x > Move Y by -10
+```
+
+// Para aumentar a interatividade, vamos criar um novo bloco (desenhar novo sprite) e contar cada vez que o boneco acertar o bloco de tijolo (tipo Mario)
+
+```
+- Create New Sprite
+- Fazer um tijolo (make a brick) 
+- Re Size
+- Atualizar o bloco de códigos:
+`
+- Events > When Space-key Pressed > 
+- Control > Repeat 10x > Move Y by 10
+- Control > If (touching tijolo) 
+  - Play sound Pop until done
+  - Variables > Create "Pontos" for all sprites
+  - Variables > Change Pontos by 1
+- Control > Repeat 10x > Move Y by -10
+`
+- Atualizar a linha - Event > When Flag Clicked > Control > Forever
+- Set Pontos to 0 (when flag is clicket)
+```
+
+
+*/
+
 /* TRANSCRIÇÃO
 0:04
 ♬ Introdução ♬
