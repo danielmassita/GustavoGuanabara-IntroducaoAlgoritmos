@@ -52,7 +52,8 @@ O Scratch permite que a gente junte as peças (encaixes):
 FIM SCRIPT # 01
 */
 
-/* INÍCIO SCRIPT # 02
+/* 
+INÍCIO SCRIPT # 02
 
 ```
 - Apagar Sprite1
