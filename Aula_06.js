@@ -9,6 +9,35 @@ Problemas propostos:
 
 SITUAÇÃO 1 
 
+Creuza fará aniversário, mas não sabe quantas velas utilizar no bolo. Vamos começar no SCRATCH. Vamos fazer uma interação entre a Creuza e o nosso programa (script).
+
+SCRATCH > Remover Sprite1
+New Sprite > Choose a sprite > Avery
+Backdrop > Choose a Backdrop > Room 1
+Avery > Code
+  - Events > When Flag Clicked
+    - Sensing > Ask > "Em que ano nós estamos? "
+    - Answer
+    - Sensing > Ask > "Em que ano eu nasci? "
+    - Answer
+    
+// Vamos atribuir para as respostas novas variáveis ("ano_atual" e "ano_nasc").     
+  
+  - Variables > Make a Variable
+    - "ano_atual"
+    - "ano_nasc"
+    - Change "ano_atual" by "Answer"
+    - Change "ano_nasc" by "Answer"
+  
+  - Variables > Make a Variable > "idade"
+    - Change "idade" by (Operator > ( ) - ( ) > (ano_atual) - (ano_nasc)
+    - Looks > Think > "Hmm..." for 2 secs > Operators > ( ) + ( ) > ("Minha idade é ") + (idade)
+
+// Final do código Creuza01 -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula06-Creuza01.png
+
+VISUALG
+
+
 
 */
 
