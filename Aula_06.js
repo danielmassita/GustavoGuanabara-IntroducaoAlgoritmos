@@ -5,7 +5,7 @@
 Vamos iniciar agora uma seqüência de exercícios, usando uma personagem fictícia pra resolver tanto no VisuAlg e no Scratch os resultados dos scripts. 
 Exercícios de Algoritmos Resolvidos
 Problemas propostos:
-- Creuza (péesimo NPC pra estereotipar)...
+- Creuza (péssimo NPC pra estereotipar)...
 
 */
 
