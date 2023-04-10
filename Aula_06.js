@@ -170,6 +170,41 @@ fimalgoritmo
 
 // (----- Fim da SITUAÇÃO 4 -----) 
 
+SITUAÇÃO 5 - Exercício Proposto
+Creuza ficou sem dinheiro e precisou pegar um empréstimo no banco. Ela dirá quanto vai pegar (input), e quantas parcelas vai pagar. O valor dos juros será de 20% do total.
+Considerando 20% de juros total. Considerando escolher em quantas vezes vai parcelar.
+
+SCRATCH
+
+- Events > When Flag Clicked
+- Sensing > Ask "..." and Wait > Answer
+- Ask "Quantos reais (R$) precisarei pegar emprestado no banco? " 
+- Variables > Make Variable > emprestimo
+- Variables > Change "emprestimo" by Answer
+
+- Variables > Make Variable > montante
+- Variables > Change Variable > Change "montante" by ( )*1.2
+- Looks > Think "..." for (5) Secs
+  - Join ("Hmm, então vou pagar, a título de juros o total de R$ ") + (montante)
+
+- Sensing > Ask > "Desse total, em quantas vezes quero parcelar? " and Wait for > Answer
+- Variables > Make Variable > parcelas
+- Variables > Change Variables > Change "parcelas" by Answer
+
+- Looks > Say "..." for 5 Secs.
+- Hmm, devo pagar ao banco um total de (montante) dividido em (parcelas), com valor mensal de R$ (mensal).
+
+- Variables > Make Variable > valor_mensal
+- Variables > Change "valor_mensal" by (montante)/(parcelas)
+
+- Looks > Say "..." > Join ("Ao todo, vou pagar mensalmente o valor de R$ ")+(valor_mensal)
+
+(clear code)
+- Events > When Flag Clicked > Set Variables to 0
+
+// Final do código "Creuza05" -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula06-Creuza05.png
+
+VISUALG
 
 */
 
