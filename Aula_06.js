@@ -88,6 +88,46 @@ fimalgoritmo
 
 // (----- Fim da SITUAÇÃO 2 -----) 
 
+SITUAÇÃO 3
+Creuza está nos EUA. Lá, a temperatura é em outra unidade (ºF). Vamos converter para ºC usando a fórmula:
+C = (F - 32)/1.8
+
+SCRATCH 
+
+- Events > When Flag Clicked > (clear code)
+(clear code)
+- Set temp_f to 0
+- Set temp_c to 0
+
+- Events > When Flag Clicked > (clear code)
+- Ask "Qual é a temperatura aqui nos EUA? " and wait for > Answer
+- Variable > Make Variable > temp_f
+- Variable > Make Variable > temp_c
+- Variable > Change Variable temp_f by > Answer
+- Variable > Change Variable temp_c by ( )-( )/( )
+- Variable > Change Variable temp_c by (temp_f)-(32)/(1.8)
+- Looks > Think (Hmm) > Operator > Join ( )+( )
+- Operator > Join > ( )+( ) > ("Hmm, no Brasil estaria fazendo (ºC) ")+(temp_c)
+
+// Final do código "Creuza03" -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula06-Creuza03.png
+
+VISUALG
+
+algoritmo "Creuza03"
+var
+   F, C: Real
+
+inicio
+      Escreva("Qual a temperatura aqui nos EUA? ")
+      Leia(F)
+      C <- (F-32)/1.8
+      Escreva("Hmm, então no Brasil estaria fazendo (ºC) ", C:4:1)
+      
+fimalgoritmo
+
+// (----- Fim da SITUAÇÃO 3 -----) 
+
+
 */
 
 /*
