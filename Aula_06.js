@@ -71,7 +71,7 @@ SCRATCH
   - Change "dolares" by > Operator ( )/( ) > (reais)/(5.06)
 - Looks > Say > Operator > Join ( )+( ) > ("Na cotação, posso ter US$ ") + (dolares)
 
-// Final do código "Creuza02" -> 
+// Final do código "Creuza02" -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula06-Creuza02.png
 
 VISUALG 
 
