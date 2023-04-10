@@ -128,6 +128,49 @@ fimalgoritmo
 // (----- Fim da SITUAÇÃO 3 -----) 
 
 
+SITUAÇÃO 4
+Creuza voltou dos EUA. Comprou muitas coisas e produtos. No retorno ao Brasil, de quanto será o valor dos impostos?
+Considerando 60% de incidência do imposto. (X * 60) / 100 // Valor vezes Sessenta e divide por Cem!
+
+SCRATCH 
+
+- Sprite > Avery
+- Backdrop > Rio
+
+- Events > When Flag Clicked
+- Sensing > Ask ( ) > Answer
+- Variables > Change "preco" by Answer
+- Operators > (( )*( )) / ( )
+- Variables > Change "imposto" by ((preco*60)/100)
+
+- Looks > Say > Operators
+- Operators > Join ( )+( )
+- Say "O imposto será de " + (imposto)
+
+(clear code)
+- When Flag Clicked >
+  - Set imposto to 0
+  - Set preco to 0
+
+// Final do código "Creuza04" -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula06-Creuza04.png
+
+VISUALG
+
+algoritmo "Creuza04"
+var
+   preco, imposto: Real
+
+inicio
+      Escreva("Qual o preço do produto (US$)? ")
+      Leia(preco)
+      imposto <- (preco*60)/100
+      Escreva("Hmm, então irei pagar um imposto de US$ ", imposto:5:2)
+      
+fimalgoritmo
+
+// (----- Fim da SITUAÇÃO 4 -----) 
+
+
 */
 
 /*
