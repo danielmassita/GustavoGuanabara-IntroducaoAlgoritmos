@@ -206,6 +206,27 @@ SCRATCH
 
 VISUALG
 
+algoritmo "Creuza05"
+var
+   emprestimo, montante, parcelas, valor_mensal: Real
+   
+inicio
+      Escreva("Quantos reais precisarei pegar emprestado no banco? R$ ")
+      Leia(emprestimo)
+      montante <- (emprestimo)*1.2
+      Escreval("Hmm, com 20% de juros, pagarei ao banco um total no montante de R$ ", montante:5:2)
+      Escreval("")
+      Escreva("Em quantas vezes quero parcelar? ")
+      Leia(parcelas)
+      valor_mensal <- montante / parcelas
+      Escreval("")
+      Escreval("Hmm, devo pagar ao banco",parcelas, " parcelas mensais.")
+      
+      Escreva("Cada parcela será no valor de R$ ",valor_mensal:5:2)
+      Escreval("")
+      
+fimalgoritmo
+
 */
 
 /*
