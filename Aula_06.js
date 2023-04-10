@@ -66,8 +66,26 @@ SCRATCH
 - Sensing > Ask "Quantos reais (BRL) eu tenho? ") and Wait...
   - Answer > 
 - Variable > Make a Variable > "reais"
+- Variable > Make a Variable > "dolares"
   - Change "reais" by (Answer)
-  - 
+  - Change "dolares" by > Operator ( )/( ) > (reais)/(5.06)
+- Looks > Say > Operator > Join ( )+( ) > ("Na cotação, posso ter US$ ") + (dolares)
+
+// Final do código "Creuza02" -> 
+
+VISUALG 
+
+algoritmo "Creuza02"
+var
+   reais, dolares: Real
+inicio
+      Escreva("Quantos reais (BRL) eu tenho? R$ ")
+      Leia(reais)
+      dolares <- reais / (5.06)
+      Escreva("Na cotação, posso ter US$ ", dolares)
+
+fimalgoritmo
+
 // (----- Fim da SITUAÇÃO 2 -----) 
 
 */
