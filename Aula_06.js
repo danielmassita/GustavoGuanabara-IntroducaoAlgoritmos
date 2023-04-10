@@ -8,7 +8,6 @@ Exercícios de Algoritmos Resolvidos no VisuAlg e no Scratch (6 exercícios)
 Problemas propostos:
 
 SITUAÇÃO 1 
-
 Creuza fará aniversário, mas não sabe quantas velas utilizar no bolo. Vamos começar no SCRATCH. Vamos fazer uma interação entre a Creuza e o nosso programa (script).
 
 SCRATCH > Remover Sprite1
@@ -37,7 +36,39 @@ Avery > Code
 
 VISUALG
 
+! (Ctrl) + (Space)
+algoritmo "Creuza01"
+var
+   ano_atual, ano_nasc, idade: Inteiro
 
+inicio
+      Escreva("Em que ano nós estamos? ")
+      Leia(ano_atual)
+      Escreva("Em que ano eu nasci? ")
+      Leia(ano_nasc)
+      idade <- (ano_atual) - (ano_nasc)
+      Escreva("Esse ano, minha idade será ", idade)
+fimalgoritmo
+
+// (----- Fim da SITUAÇÃO 1 -----) 
+
+SITUAÇÃO 2
+Creuza fez aniversário e quer se dar um presente de aniversário - uma viagem aos EUA. "Creuza vai viajar e precisa comprar dólares."
+Google: Hoje 09/04/2023 1 USD = 5,06 BRL. No exemplo USD 1 : 2,22 BRL.
+
+SCRATCH
+
+- Stage > Backdrop > Select > Urban
+- Sprite1 > Delete
+- New Sprite > Choose a Sprite > Avery
+
+- Control > When Flag Clicked
+- Sensing > Ask "Quantos reais (BRL) eu tenho? ") and Wait...
+  - Answer > 
+- Variable > Make a Variable > "reais"
+  - Change "reais" by (Answer)
+  - 
+// (----- Fim da SITUAÇÃO 2 -----) 
 
 */
 
