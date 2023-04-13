@@ -170,8 +170,122 @@ inicio
       Escreval("O novo salário de ", Nome, " será de R$: ", NSal:5:2)
       Escreval("---------------------------")
 fimalgoritmo
+*/
 
+/*
+Exercício 01: Aproveitamento de um aluno
+Aproveitamento
+A (10 - 9.0)
+B (8.9 - 8.0)
+C (7.9 - 7.0)
+D (6.9 - 6.0)
+E (5.9 - 5.0)
+F (abaixo 5)
+
+Exemplo: 
+
+--------------------------
+Escola Javali Cansado D+
+--------------------------
+Primeira Nota: 
+Segunda Nota: 
+--------------------------
+ MEDIA: 
+ Aproveitamento: 
+--------------------------
+
+Resposta:
+
+algoritmo "SituacaoAluno"
+var
+   nota1, nota2, media: Real
+inicio
+      EscrevaL("-----------------------")
+      EscrevaL(" ESCOLA JAVALI CANSADO ")
+      EscrevaL("-----------------------")
+      Escreva("Primeira Nota: ")
+      Leia(nota1)
+      Escreva("Segunda Nota: ")
+      Leia(nota2)
+      media <- (nota1 + nota2)/2
+      EscrevaL("-----------------------")
+      EscrevaL(" MEDIA: ", media:3:1)
+      Se (media >=9) e (media <= 10) entao
+         EscrevaL(" APROVEITAMENTO: A ")
+      senao
+           Se (media >= 8) e (media < 9) entao
+              EscrevaL (" APROVEITAMENTO: B ")
+           senao
+                Se (media >= 7) e (media < 8) entao
+                   EscrevaL (" APROVEITAMENTO: C ")
+                senao
+                     Se (media >= 6) e (media < 7) entao
+                        EscrevaL (" APROVEITAMENTO: D ")
+                     senao
+                          Se (media >= 5) e (media < 6) entao
+                             EscrevaL (" APROVEITAMENTO: E ")
+                          senao
+                             EscrevaL(" APROVEITAMENTO: F ")
+                          FimSe
+                     FimSe
+                FimSe
+           FimSe
+      FimSe
+      EscrevaL("-----------------------")
+fimalgoritmo
+
+
+Exercício 02: Partida de Futebol - Poderemos usar o método Escolha-Caso
+
+Exemplo:
+
+--------------------------
+     BANGU X MADUREIRA
+--------------------------
+Quantos gols do Bangu? 
+Quantos gols do Madureira? 
+--------------------------
+ DIFERENÇA: 1-3, >3, 0
+ STATUS: Partida Normal, Goleada, Empate
+--------------------------
+
+Resposta:
+
+algoritmo "PartidaFutebol"
+var
+   gols1, gols2, dif: Real
+inicio
+      EscrevaL("-----------------------")
+      EscrevaL("   BANGU x MADUREIRA   ")
+      EscrevaL("-----------------------")
+      Escreva("Quantos gols do BANGU? ")
+      Leia(gols1)
+      Escreva("Quantos gols do MADUREIRA? ")
+      Leia(gols2)
+      Se (gols1 > gols2) entao
+         dif <- gols1 - gols2
+      senao
+         dif <- gols2 - gols1
+      FimSe
+      EscrevaL("-----------------------")
+      EscrevaL(" DIFERENCA: ", dif)
+      Escolha dif
+         Caso 0
+              EscrevaL(" STATUS: EMPATE ")
+         Caso 1, 2, 3
+              EscrevaL(" STATUS: PARTIDA NORMAL ")
+         Caso 4,5, 6, 7
+              EscrevaL(" STATUS: GOLEADA ")
+         OutroCaso
+              EscrevaL(" STATUS: ALGO INCOMUM. ")
+              EscrevaL(" Voce digitou os dados corretos? ")
+      FimEscolha
+      EscrevaL("-----------------------")
+fimalgoritmo
 
 */
 
+/*
+TRANSCRIÇÃO
 
+*/
