@@ -127,4 +127,51 @@ inicio
       FimSe
 fimalgoritmo
 
+// Podemos trabalhar também no casos numéricos simples (mas com muitos casos), podemos usar a Estrutura CONDICIONAL ESTRUTURA-CASO. E ao final, acaso nenhum dos valores acimas foram atingidos, então OutroCaso que pode ser usada ou omitida.
+// Porém a estrutura-caso não serve pra testar faixas de valores ( < ou > ou igual ) então é basicamente valores específicos.
+
+
+Escolha (variável)
+	Caso valor
+		Bloco A
+	Caso valor
+		Bloco B
+	Caso valor
+		Bloco C
+	OutroCaso
+		Bloco D
+FimEscolha
+
+
+algoritmo "DependentesFuncionario"
+var
+   Nome: Caractere
+   Sal, NSal: Real
+   Dep: Inteiro
+
+inicio
+      Escreva("Qual o nome do funcionário? ")
+      Leia(Nome)
+      Escreva("Qual o salário do funcionário? R$ ")
+      Leia(Sal)
+      Escreva("Qual é a quantidade de dependentes? ")
+      Leia(Dep)
+      
+      Escolha Dep
+              Caso 0
+                   NSal <- Sal + (Sal*5/100)
+              Caso 1, 2, 3
+                   NSal <- Sal + (Sal*10/100)
+              Caso 4, 5, 6
+                   NSal <- Sal + (Sal*15/100)
+              OutroCaso
+                       NSal <- Sal + (Sal*18/100)
+      FimEscolha
+      Escreval("O novo salário de ", Nome, " será de R$: ", NSal:5:2)
+      Escreval("---------------------------")
+fimalgoritmo
+
+
 */
+
+
