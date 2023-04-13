@@ -3,9 +3,43 @@
 
 /*
 Após a aula de exercícios, vamos voltar com a matéria de Estruturas Condicionais. E se acontecer alguma coisa? 
-
 Estruturas Condicionais - Parte 1
 
+// CONDICIONAL SIMPLES
+"Se eu tiver dinheiro, então vou fazer uma viagem pra Disney."
+
+Scratch -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula07-1-Condi%C3%A7%C3%A3oSimples.png
+
+VisuAlg -> 
+  Se (expressão) entao
+    Boco
+  FimSe
+
+  Se (dinheiro >= 10000) entao
+    Escreva ("Partiu Disney")
+  FimSe
+
+// PRÁTICA 01
+
+algoritmo "CalculoIdade"
+var
+   ano, nasc, idade: Inteiro
+
+inicio
+      Escreva("Em que ano nós estamos? ")
+      Leia(ano)
+      Escreva("Em qual ano você nasceu? ")
+      Leia(nasc)
+      idade <- (ano) - (nasc)
+      Escreval("Em ", ano, " você terá ", idade, " anos.")
+      Se (idade >= 18) entao
+         Escreval("E você já terá atingido a maioridade.")
+      FimSe
+fimalgoritmo
+
+// Se a condição não for cumprida, então: NADA ACONTECE. Se quisermos que algo aconteça, precisaremos usar a Condicional Composta!
+
+// CONDICIONAL COMPOSTA
 
 */
 
