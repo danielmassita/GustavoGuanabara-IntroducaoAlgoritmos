@@ -2,6 +2,14 @@
 // https://youtu.be/_g05aHdBAEY
 
 /*
+Após a aula de exercícios, vamos voltar com a matéria de Estruturas Condicionais. E se acontecer alguma coisa? 
+
+Estruturas Condicionais - Parte 1
+
+
+*/
+
+/*
 TRANSCRIÇÃO
 0:04
 ♫ Música de Abertura ♫
