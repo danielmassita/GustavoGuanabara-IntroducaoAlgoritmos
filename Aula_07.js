@@ -41,6 +41,47 @@ fimalgoritmo
 
 // CONDICIONAL COMPOSTA
 
+Se (eu tiver dinheiro) então
+vou fazer uma viagem pra Disney
+senão
+vou ficar em casa
+
+Se (expressão) entao
+  Bloco A
+Senao
+  Bloco B
+FimSe
+
+Se (dinheiro >= 10000) entao
+  Escvreva("Partiu Disney!")
+senao
+  Escreva("Hmm... #chateado")
+FimSe
+
+Scratch -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-IntroducaoAlgoritmos/main/Algoritmos-Aula07-2-Condi%C3%A7%C3%A3oComposta.png
+
+// PRÁTICA 02 - Par ou Ímpar? 
+
+VisuAlg -> 
+
+algoritmo "ParOuImpar"
+var
+   N: inteiro
+
+inicio
+      Escreva("Digite um número qualquer... ")
+      Leia(N)
+      Se (N % 2 = 0) entao
+         Escreval("O número ", N, " é PAR.")
+      senao
+           Escreval("O número ", N, " é ÍMPAR.")
+      FimSe
+fimalgoritmo
+
+// 
+
+
+
 */
 
 /*
