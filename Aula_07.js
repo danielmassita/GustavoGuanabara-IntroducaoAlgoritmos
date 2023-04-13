@@ -12,7 +12,7 @@ Scratch -> https://raw.githubusercontent.com/danielmassita/GustavoGuanabara-Intr
 
 VisuAlg -> 
   Se (expressão) entao
-    Boco
+    Bloco
   FimSe
 
   Se (dinheiro >= 10000) entao
@@ -78,9 +78,89 @@ inicio
       FimSe
 fimalgoritmo
 
-// 
+// PRÁTICA 03
 
+- Cálculo do IMC = Massa / Altura^2 
+- Peso Ideal: IMC entre 18,5 e 25
 
+algoritmo "CalculoIMC"
+var
+   M, A, IMC: Real
+inicio
+      Escreva("Massa (kg): ")
+      Leia(M)
+      Escreva("Altura (m): ")
+      Leia(A)
+      IMC <- M / (A^2)
+      Escreval("IMC: ", IMC:5:2)
+      
+      Se (IMC >= 18.5) e (IMC < 25) entao
+         Escreva("Parabéns, você está na sua faixa de peso ideal.")
+      Senao
+           Escreva("Você não está na faixa de peso ideal.")
+      FimSe
+fimalgoritmo
+
+// FIM DA AULA - ABAIXO EXERCÍCIOS PROPOSTOS
+
+Exercício 01 - Está Apto ou Inapto a tirar a Carteira de Motorista (CNH)? (idade >= 18 anos)
+
+algoritmo "AptoOuInaptoDirigir"
+var
+   ano, nasc, idade: Inteiro
+
+inicio
+      Escreval("--------------------------")
+      Escreval(" Departamento de Trânsito ")
+      Escreval("--------------------------")
+      Escreval("")
+      Escreva("Ano Atual (yyyy): ")
+      Leia(ano)
+      Escreva("Ano de Nascimento (yyyy): ")
+      Leia(nasc)
+      idade <- ano - nasc
+      Escreval("")
+      Escreval("")
+      Escreval("--------- STATUS --------")
+      Escreval("")
+      Escreval("Idade: ", idade, " anos.")
+      Se (idade >= 18) entao
+         Escreval("APTO a tirar a carteira de motorista.")
+      Senao
+           Escreval("INAPTO a tirar a carteira de motorista.")
+      FimSe
+      Escreval("")
+      Escreval("--------------------------")
+fimalgoritmo
+
+Exercício 02 - Aluno Aprovado ou Reprovado (média >= 7)
+
+algoritmo "AprovadoOuReprovado"
+var
+   nota1, nota2, media: Real
+
+inicio
+      Escreval("--------------------------")
+      Escreval(" Escola Javali Cansado D+ ")
+      Escreval("--------------------------")
+      Escreval("")
+      Escreva("Primeira Nota (0-10): ")
+      Leia(nota1)
+      Escreva("Segunda Nota (0-10): ")
+      Leia(nota2)
+      media <- (nota1 + nota2)/2
+      Escreval("")
+      Escreval("--------- STATUS --------")
+      Escreval("")
+      Escreval("MÉDIA: ",media)
+      Se (media >= 7) entao
+         Escreval("Aluno(a) está APROVADO(A).")
+      Senao
+           Escreval("Aluno(a) está REPROVADO(A).")
+      FimSe
+      Escreval("")
+      Escreval("--------------------------")
+fimalgoritmo
 
 */
 
